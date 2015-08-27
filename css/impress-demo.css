@@ -302,6 +302,35 @@ Styling text-driven slides:
     font-size: 50%;
 }
 
+#xkcd .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#branch img {
+    margin-top: 90px;
+}
+
+#forreal q {
+    margin-top: 0px;
+}
+
+#forreal .container {
+    text-align: center;
+}
+
+#forreal iframe {
+    display: inline-block;
+    box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+#merge img {
+    max-height: 100%;
+}
+
 /*
     Second step is nothing special, just a text with a link, so it doesn't need
     any special styling.
