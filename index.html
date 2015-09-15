@@ -81,6 +81,15 @@
         </ul>
     </div>
 
+    <div class="step slide text" data-x="-500" data-y="4000" data-rotate="90">
+        <h1>Imagine a use case where multiple people are trying to work on a single novel</h1>
+        <ul>
+            <li>We might use something like Google Docs but editing the same document simultaneously is not convienent</li>
+            <li>We also could make them work on their own computers and then merge all created .doc files (<i>somehow</i>)</li>
+            <li>By using git, we can avoid those problems. Everyone can work on their own copy of the repository and easily collaborate with one another</li>
+        </ul>
+    </div>
+
     <!-- How to use it? -->
     <div class="step slide text" data-x="-1500" data-y="2000" data-rotate="90">
         <q>How to use it?</q>
@@ -197,6 +206,66 @@
         <div class="container">
         	<iframe class="imgur-embed" width="400" height="400" frameborder="0" src="http://i.imgur.com/Uo8tqfw.gifv#embed"></iframe>
         </div>
+    </div>
+
+    <div class="step slide text" data-x="5000" data-y="1000" data-rotate="90">
+        <q>How do we initialize a git repository?</q>
+    </div>
+
+    <div class="step slide text" data-x="5000" data-y="2000" data-rotate="90">
+        <h1>Basically there are two ways</h1>
+        <ul>
+        	<li>We can initialize a brand new repository by using <b>git init</b> command</li>
+        	<li>Or we can clone an existing oneby using <b>git clone</b> command</li>
+        </ul>
+    </div>
+
+    <div class="step slide text" data-x="5000" data-y="3000" data-rotate="90">
+        <h1><b>Result of <b>git init</b></b></h1>
+        <img src="images/git_init.png">
+    </div>
+
+    <div class="step slide text" data-x="5000" data-y="4000" data-rotate="90">
+        <h1>Result of <b>git clone</b></h1>
+        <img src="images/git_clone.png">
+    </div>
+
+    <div class="step slide text" data-x="5000" data-y="5000" data-rotate="90">
+        <q>Okay, now what?</q>
+    </div>
+
+    <div class="step slide text" data-x="7000" data-y="1000" data-rotate="90">
+        <q>Now we need to talk about git states</q>
+        <em>(Listen carefully, this is important)</em>
+    </div>
+
+    <div class="step slide text" data-x="7000" data-y="2000" data-rotate="90">
+        <h1>In git, there are four states that a file can be in</h1> 
+        <ul>
+        	<li>Untracked file</li>
+        	<li>Modified file</li>
+        	<li>Staged file</li>
+        	<li>Commmitted file</li>
+        </ul>
+    </div>
+
+     <div class="step slide text" data-x="7000" data-y="3000" data-rotate="90">
+        <q>To check the current status of our files we use <b>git status</b> command</q>
+        <em>We're going to see it in action in a minute</em>
+    </div>
+
+    <div class="step slide text" data-x="7000" data-y="4000" data-rotate="90">
+        <h1>Untracked file</h1> 
+        <ul>
+        	<li>Untracked file means that git will not keep track of any changes in this file</li>
+        	<li>All new files are untracked by default</li>
+        	<li>In order to make git aware of those files we need to add them to repository using <b>git add</b> command</li>
+        </ul>
+    </div>
+
+    <div class="step slide text" data-x="7000" data-y="5000" data-rotate="90">
+        <h1>Untracked files</h1>
+        <img src="images/untracked.png">
     </div>
 </div>
 

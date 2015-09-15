@@ -316,9 +316,11 @@ Styling text-driven slides:
 
 #forreal q {
     margin-top: 0px;
+    font-size: 40px;
 }
 
 #forreal .container {
+    margin-top: 50px;
     text-align: center;
 }
 
